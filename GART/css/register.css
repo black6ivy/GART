@@ -1,0 +1,109 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.grid-container {
+	width: 100%;
+	min-height: 110vh;
+	background-image: linear-gradient(170deg, rgb(182, 33, 254), #1fd1f9);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+ 	
+}
+.forum{
+    width: 45%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.15);
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+.forum u{
+    width: 100%;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+.forum h1{
+    text-align: center;
+}
+
+.textbox input {
+    width: 100%;
+    outline:none ;
+    border: none;
+    border-radius: 30px;
+    padding-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.15);
+    font-size: 15px;
+    cursor: pointer;
+    margin: auto;
+}   
+
+.forum button {
+
+	width: 90%;
+    border-radius: 30px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500px;
+    cursor: pointer;
+    margin: 40px 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.button:hover {
+  background-color: rgb(182, 33, 254);
+  color: white;
+}
+.b{
+
+	text-align: center;
+    margin-top: 50px;
+}
+.u{
+	color: rgb(125, 102, 125);
+    font-size: 20px;
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
+    .textbox input{
+        font-size: 13px;
+    }
+    .b{
+        margin-top: 10px;
+    }
+    .grid-container {
+    width: 100%;
+    min-height: 100vh;
+    }
+    .forum{
+        top: 55%;
+    }
+    .forum button {
+    width: 70%;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400px;
+    cursor: pointer;
+    margin: 30px 0;
+    color: white;
+    background-image: linear-gradient(150deg, #b621fe, #1fd1f9);
+}
+}
